@@ -1,4 +1,4 @@
-import DateCounter from './DateCounter';
+import { DateCounter } from './components';
 
 export default function App() {
   return (
