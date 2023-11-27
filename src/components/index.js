@@ -8,6 +8,7 @@ import NextButton from './NextButton';
 import ProgressBar from './ProgressBar';
 import Question from './Question';
 import StartScreen from './StartScreen';
+import Timer from './Timer';
 
 export {
   DateCounter,
@@ -20,4 +21,5 @@ export {
   ProgressBar,
   Question,
   StartScreen,
+  Timer,
 };
