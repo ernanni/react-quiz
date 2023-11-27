@@ -1,6 +1,7 @@
 import { useEffect, useReducer } from 'react';
 import {
   Error,
+  Finished,
   Header,
   Loader,
   Main,
@@ -88,6 +89,9 @@ export default function App() {
             />
             <NextButton dispatch={dispatch} answer={answer} />
           </>
+        )}
+        {status === 'finished' && (
+          <Finished points={points} maxPoints={maxPoints} />
         )}
       </Main>
     </div>
